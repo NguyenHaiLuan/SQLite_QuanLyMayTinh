@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOfComputer">
+
+    <TextView
+        android:id="@+id/sttl"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="STT"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tenmaydsl"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/sttl"
+        android:gravity="center"
+        android:text="Tên máy"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tenloaidsl"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tenmaydsl"
+        android:gravity="center"
+        android:text="Tên loại"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <ListView
+        android:id="@+id/listviewcomputer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemMayTinh">
+
+    <TextView
+        android:id="@+id/tieudemay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="THÊM MÁY MỚI"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/tenmay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tieudemay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="16"
+        android:text="Tên máy" />
+
+    <EditText
+        android:id="@+id/tenloaim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tenmay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="16"
+        android:text="Tên loại" />
+
+    <Button
+        android:id="@+id/luu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tenloaim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Lưu" />
+
+    <Button
+        android:id="@+id/xoatatca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/luu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Xoá tất cả" />
+
+</RelativeLayout>
